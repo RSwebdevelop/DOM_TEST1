@@ -1,8 +1,6 @@
 (function(){
-    const all = document.querySelector(".all");
-    const headphones = document.querySelector(".headphones")
-    const mobiles = document.querySelector(".mobiles")
-    const laptops = document.querySelector('.laptops');
+    const buttons = document.querySelectorAll('.btn')
+    const storeImages = document.querySelectorAll('.all_items')
 
 
     buttons.forEach((button) => {
